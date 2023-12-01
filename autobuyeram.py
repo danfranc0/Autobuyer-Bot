@@ -12,11 +12,8 @@ driver = webdriver.Chrome(PATH)
 
 # AMAZON
 
-# edit this link and variable name to your liking
-RTX3070LINK = "https://www.amazon.com/ASUS-Premium-GeForce-Keyboard-Included/dp/B083Z5P6TX/ref=sr_1_13?dchild=1&keywords=3060+ti&qid=1607791119&s=electronics&sr=1-13"
-
-# here too & change MSRP value
-URL = RTX3070LINK1
+# edit this link and MSRP to fit your target product
+URL = "https://www.amazon.com/ASUS-Premium-GeForce-Keyboard-Included/dp/B083Z5P6TX/ref=sr_1_13?dchild=1&keywords=3060+ti&qid=1607791119&s=electronics&sr=1-13"
 MSRP = 650
 
 driver.get(URL)
