@@ -12,14 +12,11 @@ driver = webdriver.Chrome(PATH)
 
 # AMAZON
 
-RTX3070LINK1 = "https://www.amazon.com/ASUS-Premium-GeForce-Keyboard-Included/dp/B083Z5P6TX/ref=sr_1_13?dchild=1&keywords=3060+ti&qid=1607791119&s=electronics&sr=1-13"
-RTX3070LINK2 ="https://www.amazon.com/MSI-RTX-3060-Ti-Architecture/dp/B08P2D3JSG/ref=sr_1_1?dchild=1&keywords=3060+ti&qid=1607796489&s=electronics&sr=1-1"
-RTX3070LINK3 = "https://www.amazon.com/EVGA-08G-P5-3755-KR-GeForce-Cooling-Backplate/dp/B08L8L71SM/ref=sr_1_6?dchild=1&keywords=3060+ti&qid=1607796489&s=electronics&sr=1-6"
-R5600XLINK = "https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ref=as_li_ss_tl?_encoding=UTF8&psc=1&refRID=46SVCMBX83Z462G6B1R7&ascsub&linkCode=sl1&tag=fixitservices-20&linkId=4a7a15114b861372c3e24f9bb3547fd7&language=en_US"
-R5800XLINK = "https://www.amazon.com/AMD-Ryzen-5800X-16-Thread-Processor/dp/B0815XFSGK/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B0815XFSGK&pd_rd_r=3088b22b-0dbb-4619-afd4-de063674e0cf&pd_rd_w=UfUsG&pd_rd_wg=NUvoL&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=ABTR9BBYDMMKRQ9G5K9C&psc=1&refRID=ABTR9BBYDMMKRQ9G5K9C&linkCode=sl1&tag=fixitservices-20&linkId=d6db18b428db28299671f47d2bb09c9b&language=en_US"
-TEST = "https://www.amazon.com/GAMEMAX-Supply-Modular-Certified-Addressable/dp/B088QYVBBH/ref=sr_1_6?dchild=1&keywords=3060+ti&qid=1607787461&sr=8-6"
+# edit this link and variable name to your liking
+RTX3070LINK = "https://www.amazon.com/ASUS-Premium-GeForce-Keyboard-Included/dp/B083Z5P6TX/ref=sr_1_13?dchild=1&keywords=3060+ti&qid=1607791119&s=electronics&sr=1-13"
 
-URL = RTX3070LINK2
+# here too & change MSRP value
+URL = RTX3070LINK1
 MSRP = 650
 
 driver.get(URL)
