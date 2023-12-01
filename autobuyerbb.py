@@ -12,12 +12,8 @@ driver = webdriver.Chrome(PATH)
 
 # BEST BUY
 
-RTX3070LINK1 = "https://www.bestbuy.com/site/gigabyte-nvidia-geforce-rtx-3060-ti-gaming-oc-8g-gddr6-pci-express-4-0-graphics-card-black/6442484.p?skuId=6442484"
-RTX3070LINK2 = "https://www.bestbuy.com/site/gigabyte-nvidia-geforce-rtx-3060-ti-eagle-oc-8g-gddr6-pci-express-4-0-graphics-card-black/6442485.p?skuId=6442485"
-RTX3070LINK3 = "https://www.bestbuy.com/site/msi-geforce-rtx-3060-ti-ventus-2x-oc-bv-8gb-gddr6-pci-express-4-0-graphics-card-black/6441172.p?skuId=6441172"
-TEST = "https://www.bestbuy.com/site/jvc-ha-wired-in-ear-headphones-black/5480415.p?skuId=5480415"
-
-URL = RTX3070LINK3
+# change link here
+URL = "https://www.bestbuy.com/site/gigabyte-nvidia-geforce-rtx-3060-ti-gaming-oc-8g-gddr6-pci-express-4-0-graphics-card-black/6442484.p?skuId=6442484"
 driver.get(URL)
 
 isComplete = False
