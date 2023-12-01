@@ -1,4 +1,4 @@
-# Python Autobuyer Bot#
+# Python Autobuyer Bot
 * autobuyeram.py and infoam.py for Amazon
 * autobuyerbb.py and infobb.py for BestBuy
 
